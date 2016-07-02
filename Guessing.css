@@ -1,0 +1,42 @@
+
+body {
+    background-image: url("http://iboommarketing.com/wp-content/uploads/crystalball.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+div.game{
+    position:fixed;;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    top: 37%;
+    left: 39%;
+}
+
+.instruct{
+  position: fixed;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  top: 80%;
+  left: 33%;
+}
