@@ -23,6 +23,22 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+.submitGuess {
+    position:fixed;
+    text-align: center;
+    height: 50px;
+    width: 190px;
+    top: 57%;
+    left: 42%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 div.game{
     position:fixed;;
     text-align: center;
@@ -32,11 +48,31 @@ div.game{
     left: 39%;
 }
 
-.instruct{
+
+div.extras{
   position: fixed;
   text-align: center;
   height: 200px;
   width: 400px;
-  top: 80%;
+  top: 90%;
   left: 33%;
+}
+
+div.messageBox{
+  position:fixed;
+  text-align: center;
+  height: 50px;
+  width: 250px;
+  top: 65%;
+  left: 39%;
+}
+
+.message{
+    color: 	#7B68EE;
+    font-family: Papyrus;
+}
+
+.main{
+    color: 	#800000;
+    font-family: Book Antiqua;
 }
